@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" contetn="width=device-width, initial-scale=1">
+	<title>Vezba 8</title>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container-fluids">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluids">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">Vremenska Prognoza</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="#">Pocetna</a>
+					</li>
+					<li>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dokumentacija<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">Trenutna prognoza</a>
+							</li>
+							<li>
+								<a href="#">Prognoza za 5 dana</a>
+							</li>
+							<li>
+								<a href="#">API dokumentacija</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<form class="navbar-form navbar-right" id="searchForm">
+					<div class="form-group">
+						<input type="text" placeholder="Lokacija" class="form-control" id="txtLocation">
+					</div>
+					<button type="submit" class="btn btn-success" id="btn_search">Pretraga<span class="glyphicon glyphicon-search"></span></button>
+					<button type="button" class="btn btn-danger" id="btn_clear"><span class="glyphicon glyphicon-remove"></span></button>
+				</form>
+			</div>
+		</nav>
+		<div class="jumbotron container-fluid" id="intro">
+			<h1>Vremenska prognoza</h1>
+			<p>Na ovoj stranici mozete videti trenutno vreme ili vremensku prognozu za 5 dana za trazenu lokaciju. <br> Unesite naziv mesta u polje pretraga</p>
+			<p>
+				<a href="#" class="btn btn-primary btn-lg" role="button">Open Weather Map <span class="glyphicon glyphicon-cloud"></span></a>
+			</p>
+		</div>
+		<div class="row">
+			<div>
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>
